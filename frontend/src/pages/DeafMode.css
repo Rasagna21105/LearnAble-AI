@@ -1,0 +1,177 @@
+/* DeafMode.css */
+
+.deaf-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .results-badge {
+    background-color: #ecd9c0;
+    color: #4a3728;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .cc-toggle {
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #fdf6ec;
+    transition: 0.2s;
+  }
+  
+  .cc-on {
+    background-color: #fdf6ec;
+    color: #4a3728;
+  }
+  
+  .cc-off {
+    background-color: transparent;
+    color: #fdf6ec;
+  }
+  
+  .subj-count {
+    margin-left: auto;
+    background-color: #ecd9c0;
+    color: #4a3728;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    font-size: 11px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .deaf-card {
+    padding: 0;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .deaf-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  /* Video thumbnail area */
+  .video-thumb {
+    background-color: #4a3728;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .thumb-icon {
+    font-size: 50px;
+    opacity: 0.3;
+  }
+  
+  .play-circle {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border: 2px solid rgba(253, 246, 236, 0.7);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fdf6ec;
+    font-size: 18px;
+    background-color: rgba(253, 246, 236, 0.15);
+    transition: 0.2s;
+  }
+  
+  .deaf-card:hover .play-circle {
+    background-color: rgba(253, 246, 236, 0.3);
+    transform: scale(1.1);
+  }
+  
+  .playing-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(74, 55, 40, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fdf6ec;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .dot-anim {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+  
+  .dot-anim span {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #f5deb3;
+    border-radius: 50%;
+    animation: dot-bounce 0.8s ease-in-out infinite;
+  }
+  
+  .dot-anim span:nth-child(2) { animation-delay: 0.2s; }
+  .dot-anim span:nth-child(3) { animation-delay: 0.4s; }
+  
+  @keyframes dot-bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+  }
+  
+  /* Caption bar */
+  .caption-bar {
+    background-color: #1a1a1a;
+    padding: 8px 14px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffe44d;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 36px;
+    font-family: Georgia, serif;
+  }
+  
+  .cc-badge {
+    background-color: #ffe44d;
+    color: #1a1a1a;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 3px;
+    flex-shrink: 0;
+  }
+  
+  .deaf-card-body {
+    padding: 18px 20px 20px;
+  }
+  
+  .watch-btn {
+    width: 100%;
+    margin-top: 14px;
+    padding: 11px;
+    font-size: 15px;
+  }
+  
+  .chapter-card-selected {
+    border-color: #4a3728 !important;
+    box-shadow: 0 0 0 3px rgba(74, 55, 40, 0.15) !important;
+  }

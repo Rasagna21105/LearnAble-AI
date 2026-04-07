@@ -1,0 +1,232 @@
+/* =============================================
+   AI Inclusive Learning — Shared Stylesheet
+   Cream + Warm Brown Theme
+   ============================================= */
+
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body, #root {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #fdf6ec;
+    color: #3b2a1a;
+  }
+  
+  /* ---- NAVBAR ---- */
+  .navbar {
+    background-color: #4a3728;
+    color: #fdf6ec;
+    padding: 16px 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+  
+  .navbar-logo {
+    font-size: 20px;
+    color: #f5deb3;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  /* ---- BUTTONS ---- */
+  .btn-primary {
+    background-color: #4a3728;
+    color: #fdf6ec;
+    border: none;
+    padding: 11px 24px;
+    border-radius: 8px;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3b2a1a;
+  }
+  
+  .btn-outline {
+    background-color: transparent;
+    color: #4a3728;
+    border: 2px solid #4a3728;
+    padding: 9px 20px;
+    border-radius: 8px;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn-outline:hover {
+    background-color: #4a3728;
+    color: #fdf6ec;
+  }
+  
+  .btn-white {
+    background-color: #fdf6ec;
+    color: #4a3728;
+    border: none;
+    padding: 9px 20px;
+    border-radius: 8px;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn-white:hover {
+    background-color: #f5deb3;
+  }
+  
+  /* ---- CARDS ---- */
+  .card {
+    background-color: #fffaf3;
+    border: 1px solid #e8d5b7;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 14px rgba(74, 55, 40, 0.08);
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 24px rgba(74, 55, 40, 0.15);
+    border-color: #c8a97a;
+  }
+  
+  /* ---- FORM ELEMENTS ---- */
+  .form-group {
+    margin-bottom: 18px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 13px;
+    color: #4a3728;
+    margin-bottom: 6px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 11px 14px;
+    border: 1.5px solid #d4b896;
+    border-radius: 8px;
+    background-color: #fffaf3;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    color: #3b2a1a;
+    outline: none;
+  }
+  
+  .form-group input:focus {
+    border-color: #8b6343;
+    box-shadow: 0 0 0 3px rgba(139, 99, 67, 0.12);
+  }
+  
+  /* ---- PAGE WRAPPER ---- */
+  .page-center {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdf6ec;
+  }
+  
+  .page-full {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #fdf6ec;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* ---- SIDEBAR ---- */
+  .sidebar {
+    width: 240px;
+    background-color: #fffaf3;
+    border-right: 1px solid #e8d5b7;
+    padding: 28px 18px;
+    flex-shrink: 0;
+  }
+  
+  .sidebar-label {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #8b6343;
+    font-weight: bold;
+    margin-bottom: 14px;
+  }
+  
+  .sidebar-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: none;
+    background: transparent;
+    color: #4a3728;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+    margin-bottom: 4px;
+  }
+  
+  .sidebar-btn:hover {
+    background-color: #f5e6d0;
+  }
+  
+  .sidebar-btn.active {
+    background-color: #ecd9c0;
+    font-weight: bold;
+    color: #3b2a1a;
+    border-left: 3px solid #4a3728;
+    padding-left: 9px;
+  }
+  
+  /* ---- TAGS ---- */
+  .tag {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+  }
+  
+  .tag-brown {
+    background-color: #ecd9c0;
+    color: #4a3728;
+  }
+  
+  .tag-green {
+    background-color: #dff0d8;
+    color: #2d6a2d;
+  }
+  
+  .tag-gold {
+    background-color: #fef3cd;
+    color: #856404;
+    border: 1px solid #f5c800;
+  }
