@@ -1,0 +1,112 @@
+/* Dashboard.css */
+
+.student-email-badge {
+  font-size: 13px;
+  color: #f5deb3;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-family: Georgia, serif;
+}
+
+.dashboard-body {
+  flex: 1;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard-welcome {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.dashboard-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #3b2a1a;
+  margin-bottom: 10px;
+}
+
+.dashboard-sub {
+  font-size: 16px;
+  color: #8b6343;
+  line-height: 1.6;
+}
+
+.dashboard-grid {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 860px;
+}
+
+.dashboard-card {
+  flex: 1;
+  min-width: 280px;
+  max-width: 380px;
+  padding: 36px 32px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-align: center;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-6px);
+}
+
+.dash-card-icon {
+  font-size: 52px;
+  margin-bottom: 18px;
+}
+
+.dash-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3b2a1a;
+  margin-bottom: 12px;
+}
+
+.dash-card-desc {
+  font-size: 14px;
+  color: #7a5c40;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.dash-card-features {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+}
+
+.feature-chip {
+  background-color: #f0e4d0;
+  color: #4a3728;
+  padding: 5px 13px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Georgia, serif;
+}
+
+.dash-card-link {
+  display: inline-block;
+  background-color: #4a3728;
+  color: #fdf6ec;
+  padding: 11px 26px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Georgia, serif;
+  transition: background-color 0.2s;
+}
+
+.dashboard-card:hover .dash-card-link {
+  background-color: #3b2a1a;
+}

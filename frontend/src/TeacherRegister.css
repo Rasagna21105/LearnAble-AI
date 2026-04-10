@@ -1,0 +1,45 @@
+/* TeacherRegister.css */
+
+.treg-card {
+    width: 420px;
+    padding: 40px 36px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .treg-icon {
+    font-size: 44px;
+    margin-bottom: 12px;
+  }
+  
+  .treg-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #3b2a1a;
+    margin-bottom: 6px;
+  }
+  
+  .treg-sub {
+    font-size: 14px;
+    color: #8b6343;
+    margin-bottom: 24px;
+    line-height: 1.5;
+  }
+  
+  .treg-submit {
+    width: 100%;
+    margin-top: 6px;
+    padding: 12px;
+    font-size: 15px;
+  }
+  
+  .treg-submit:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .treg-footer {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #6b5040;
+  }

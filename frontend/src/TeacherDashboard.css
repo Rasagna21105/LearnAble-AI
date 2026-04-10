@@ -1,0 +1,213 @@
+/* TeacherDashboard.css */
+
+.teacher-email-badge {
+    font-size: 13px;
+    color: #f5deb3;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-family: Georgia, serif;
+  }
+  
+  .tdash-body {
+    flex: 1;
+    padding: 40px 52px;
+    overflow-y: auto;
+  }
+  
+  .tdash-welcome {
+    margin-bottom: 32px;
+  }
+  
+  .tdash-heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: #3b2a1a;
+    margin-bottom: 6px;
+  }
+  
+  .tdash-sub {
+    font-size: 15px;
+    color: #8b6343;
+  }
+  
+  /* Stats */
+  .tdash-stats {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  .stat-card {
+    flex: 1;
+    min-width: 120px;
+    max-width: 160px;
+    padding: 20px 16px;
+    text-align: center;
+  }
+  
+  .stat-icon {
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+  
+  .stat-value {
+    font-size: 28px;
+    font-weight: bold;
+    color: #3b2a1a;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  
+  .stat-label {
+    font-size: 12px;
+    color: #8b6343;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Section title */
+  .tdash-section-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3b2a1a;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e8d5b7;
+  }
+  
+  /* Action cards */
+  .tdash-actions {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  .action-card {
+    flex: 1;
+    min-width: 260px;
+    max-width: 360px;
+    padding: 28px 24px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .action-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .action-icon {
+    font-size: 36px;
+    margin-bottom: 12px;
+  }
+  
+  .action-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3b2a1a;
+    margin-bottom: 8px;
+  }
+  
+  .action-desc {
+    font-size: 13px;
+    color: #7a5c40;
+    line-height: 1.6;
+    margin-bottom: 14px;
+  }
+  
+  .action-link {
+    font-size: 13px;
+    font-weight: bold;
+    color: #4a3728;
+    text-decoration: underline;
+  }
+  
+  /* Recent grid */
+  .recent-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .recent-card {
+    padding: 20px;
+  }
+  
+  .recent-card-top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .mode-tag {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-family: Georgia, serif;
+  }
+  
+  .mode-blind {
+    background-color: #e8e0f7;
+    color: #4a2d8a;
+  }
+  
+  .mode-deaf {
+    background-color: #e0f0e8;
+    color: #1a5c3a;
+  }
+  
+  .mode-both {
+    background-color: #fdf3e0;
+    color: #7a5200;
+  }
+  
+  .recent-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #3b2a1a;
+    margin-bottom: 6px;
+    line-height: 1.35;
+  }
+  
+  .recent-desc {
+    font-size: 13px;
+    color: #7a5c40;
+    line-height: 1.55;
+    margin-bottom: 12px;
+  }
+  
+  .recent-files {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  
+  .file-tag {
+    background-color: #f5ebe0;
+    color: #4a3728;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px 9px;
+    border-radius: 12px;
+    font-family: Georgia, serif;
+  }
+  
+  /* Empty / loading */
+  .tdash-empty {
+    padding: 36px;
+    text-align: center;
+    color: #8b6343;
+    font-size: 15px;
+  }
+  
+  .tdash-loading {
+    color: #8b6343;
+    font-size: 14px;
+    padding: 20px 0;
+  }

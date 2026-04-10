@@ -1,0 +1,85 @@
+/* TeacherLogin.css */
+
+.tlogin-card {
+    width: 400px;
+    padding: 40px 36px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .back-role-btn {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: transparent;
+    border: none;
+    font-family: Georgia, serif;
+    font-size: 13px;
+    color: #8b6343;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .back-role-btn:hover {
+    color: #4a3728;
+    text-decoration: underline;
+  }
+  
+  .tlogin-icon {
+    font-size: 44px;
+    margin-bottom: 12px;
+  }
+  
+  .tlogin-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #3b2a1a;
+    margin-bottom: 6px;
+  }
+  
+  .tlogin-sub {
+    font-size: 14px;
+    color: #8b6343;
+    margin-bottom: 24px;
+  }
+  
+  .tlogin-submit {
+    width: 100%;
+    margin-top: 6px;
+    padding: 12px;
+    font-size: 15px;
+  }
+  
+  .tlogin-submit:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .tlogin-footer {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #6b5040;
+  }
+  
+  /* Shared error box — also used by TeacherRegister */
+  .form-error {
+    background-color: #fdecea;
+    border: 1px solid #f5c0bb;
+    color: #8b3a3a;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-bottom: 16px;
+    text-align: left;
+  }
+  
+  .form-success {
+    background-color: #e8f5e9;
+    border: 1px solid #b2dfb2;
+    color: #2d6a2d;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-bottom: 16px;
+    text-align: left;
+  }
